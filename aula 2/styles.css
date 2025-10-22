@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #f2f2f2;
+    height: 100%;
+    padding: 10px 50px 10px 50px;
+}
+#cabecalho img{
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+#cabecalho h1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight:bold ;
+}
+#cabecalho p{
+    cursor: pointer;
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    padding: 10px;
+    margin: 50px 0px 50px 0px;
+}
+.pesquisa input{
+    height: 100%;
+    width: 45%;
+    border-radius: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+}
