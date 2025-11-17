@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Calculadora Simples</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 
 <body>
@@ -23,11 +23,11 @@
     <p id="resultado">Resultado</p>
 
     <script>
-    
+
         function obterValores() {
             var valor1 = document.getElementById('campo1').value;
             var valor2 = document.getElementById('campo2').value;
-            
+
             return {
                 num1: Number(valor1),
                 num2: Number(valor2)
@@ -59,7 +59,7 @@
 
         function dividir() {
             var valores = obterValores();
-            
+
             if (valores.num2 === 0) {
                 exibirResultado('divisão', 'Não é possível dividir por zero!');
                 return;
