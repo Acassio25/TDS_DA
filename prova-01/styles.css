@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     background-color: #ece9e9;
     color: #333;
 }
+
 .container {
     width: 900px;
     margin: 0 auto;
@@ -29,16 +31,27 @@ body {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 2px;
-    color: #330b9f; 
+    color: #330b9f;
     margin-bottom: 5px;
 }
 
-h1 { font-size: 40px; }
-h2 { font-size: 30px; margin-bottom: 20px; }
-h3 { font-size: 20px; }
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
 
 .subtitle {
     font-size: 14px;
@@ -49,23 +62,27 @@ h3 { font-size: 20px; }
 .cabecalho {
     height: 550px;
     width: 100%;
+
+    background-image: url('imagens/clube.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
     color: rgba(248, 250, 249, 0.981);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     position: relative;
 
-}
-
-
-.cabecalho {
-    background: url(imagens/clube.jpeg) no-repeat center center/cover;
     display: flex;
     flex-direction: column;
 }
+
+
 .container {
     height: 50%;
     display: flex;
     flex-direction: column;
 }
+
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -86,7 +103,7 @@ h3 { font-size: 20px; }
 }
 
 .navbar ul li a:hover {
-    color: #2c1391; 
+    color: #2c1391;
 }
 
 #logo {
@@ -108,7 +125,7 @@ h3 { font-size: 20px; }
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .trilha p {
@@ -118,7 +135,7 @@ h3 { font-size: 20px; }
 
 .btn-primary {
     display: inline-block;
-    background-color: #e51717; 
+    background-color: #e51717;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -131,11 +148,12 @@ h3 { font-size: 20px; }
 }
 
 .btn-primary:hover {
-    background-color: #388E3C; 
+    background-color: #388E3C;
 }
+
 .grid-3 {
     display: grid;
-    grid-template-columns: 280px 280px 280px; 
+    grid-template-columns: 280px 280px 280px;
     gap: 10px;
     text-align: center;
     justify-content: center;
@@ -150,7 +168,7 @@ h3 { font-size: 20px; }
 
 .grid-2 {
     display: grid;
-    grid-template-columns: 440px 440px; 
+    grid-template-columns: 440px 440px;
     gap: 20px;
     align-items: start;
 }
@@ -169,7 +187,8 @@ h3 { font-size: 20px; }
     display: flex;
     align-items: center;
 }
-.unit-item h3 + p:first-of-type { 
+
+.unit-item h3+p:first-of-type {
     font-style: italic;
     border-left: 3px solid #4CAF50;
     padding: 10px;
@@ -186,8 +205,9 @@ h3 { font-size: 20px; }
     font-size: 18px;
     color: #004d40;
 }
+
 .contact-form {
-    width: 400px; 
+    width: 400px;
     margin: 20px auto 0;
     display: flex;
     flex-direction: column;
@@ -205,10 +225,11 @@ h3 { font-size: 20px; }
 
 .contact-form textarea {
     min-height: 80px;
-    resize: none; 
+    resize: none;
 }
+
 footer {
-    background-color: #004d40; 
+    background-color: #004d40;
     color: white;
     text-align: center;
     padding: 15px 0;
